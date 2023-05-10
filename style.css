@@ -1,0 +1,44 @@
+
+  /* Add custom CSS styles here */
+    body {
+        background-color: rgb(183, 93, 130);
+    }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .card-body{
+    padding-top: 3px;
+  }
+
+  .btn-primary {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+  }
+  .btn-primary:hover {
+    background-color: #ff1493;
+    border-color: #ff1493;
+  }
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 105, 180, 0.5);
+  }
+
+  .card-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+  .card-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .card-icons i:hover {
+    color: #ff69b4;
+  }
+
+
